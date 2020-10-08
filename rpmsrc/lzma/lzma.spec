@@ -1,7 +1,7 @@
 Summary: 	LZMA utils
 Name: 		lzma
 Version: 	4.32.7
-Release: 	1%{?dist}.elinuxrepo
+Release: 	2%{?dist}
 License: 	GPLv2+
 Group:		Applications/File
 Source0:	http://tukaani.org/%{name}/%{name}-%{version}.tar.lzma
