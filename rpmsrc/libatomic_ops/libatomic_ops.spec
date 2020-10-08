@@ -1,7 +1,7 @@
 Name:    libatomic_ops
 Summary: Atomic memory update operations
 Version: 7.6.10
-Release: 4%{?dist}
+Release: 4%{?dist}.elinuxrepo
 
 # libatomic_ops MIT, libatomic_ops_gpl GPLv2
 License: GPLv2 and MIT

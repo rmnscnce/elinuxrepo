@@ -1,6 +1,6 @@
 Name:          sbc
 Version:       1.3
-Release:       9%{?dist}
+Release:       9%{?dist}.elinuxrepo
 Summary:       Sub Band Codec used by bluetooth A2DP
 
 License:       GPLv2 and LGPLv2+

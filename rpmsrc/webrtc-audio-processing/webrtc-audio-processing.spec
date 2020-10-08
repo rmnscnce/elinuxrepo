@@ -1,6 +1,6 @@
 Name:           webrtc-audio-processing
 Version:        0.3.1
-Release:        4%{?dist}
+Release:        4%{?dist}.elinuxrepo
 Summary:        Library for echo cancellation
 
 License:        BSD and MIT
