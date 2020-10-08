@@ -1,4 +1,5 @@
 # TODO: add make test to %%check section
+# remember to remove bootstrap hack at line 185 if it works
 
 #global branch  oldabi-
 #global date    20180419
@@ -181,7 +182,7 @@ BuildRequires:  texinfo
 %{?_with_vmaf:BuildRequires: libvmaf-devel}
 %{?_with_wavpack:BuildRequires: wavpack-devel}
 %{!?_without_vidstab:BuildRequires:  vid.stab-devel}
-%{!?_without_x264:BuildRequires: x264-devel >= 0.0.0-0.31}
+#%%{!?_without_x264:BuildRequires: x264-devel >= 0.0.0-0.31} // bootstrap hack
 %{!?_without_x265:BuildRequires: x265-devel}
 %{!?_without_xvid:BuildRequires: xvidcore-devel}
 BuildRequires:  zimg-devel >= 2.7.0
