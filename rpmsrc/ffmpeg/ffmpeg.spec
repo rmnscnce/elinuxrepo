@@ -43,7 +43,7 @@
 %global _without_frei0r  1
 %global _without_gpl     1
 %global _without_vidstab 1
-%global _without_x264    1
+%global _without_x264    0
 %global _without_x265    1
 %global _without_xvid    1
 %endif
