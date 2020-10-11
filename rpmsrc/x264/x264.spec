@@ -66,7 +66,7 @@ This package contains the frontend.
 
 %package libs
 Summary: Library for encoding H264/AVC video streams
-Recommends: %{_libdir}/libOpenCL.so.1
+Requires: %{_libdir}/libOpenCL.so.1
 
 %description libs
 x264 is a free library for encoding H264/AVC video streams, written from
