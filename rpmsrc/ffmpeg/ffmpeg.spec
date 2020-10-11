@@ -44,7 +44,7 @@
 %global _without_frei0r  1
 %global _without_gpl     1
 %global _without_vidstab 1
-%global _without_x264    0
+%global _without_x264    1
 %global _without_x265    1
 %global _without_xvid    1
 %endif
@@ -182,7 +182,7 @@ BuildRequires:  texinfo
 %{?_with_vmaf:BuildRequires: libvmaf-devel}
 %{?_with_wavpack:BuildRequires: wavpack-devel}
 %{!?_without_vidstab:BuildRequires:  vid.stab-devel}
-#%%{!?_without_x264:BuildRequires: x264-devel >= 0.0.0-0.31} // bootstrap hack
+%{!?_without_x264:BuildRequires: x264-devel >= 0.0.0-0.31}
 %{!?_without_x265:BuildRequires: x265-devel}
 %{!?_without_xvid:BuildRequires: xvidcore-devel}
 BuildRequires:  zimg-devel >= 2.7.0
